@@ -7,7 +7,43 @@
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
     <title>Modern HTML Email and Landing Page Template Example</title>
-    <style type="text/css"></style>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        img {
+            border: 0;
+            border-width: 0;
+        }
+
+        a {
+            color: #26292b;
+        }
+        /* Custom Dark Mode Colors */
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+        @media (prefers-color-scheme: dark) {
+         body, center, table, .darkmode-bg {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         }
+         .darkmode-transparent {
+            background-color: transparent!important;
+         }
+      }
+    </style>
 </head>
 <body style="Margin: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; min-width: 100%; background-color: #e8e8e8;">
     <!--[if (gte mso 9) | (IE)]>
@@ -29,7 +65,7 @@
 				<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
 			<![endif]-->
             <table align="center" style="border-spacing: 0; color: #3d3d3d; font-family: 'Raleway', serif, sans-serif, Arial, Helvetica; background-color: #ffffff; Margin:0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 100%; max-width: 600px;" role="presentation">
-                <!-- START CONTACT INFO HEADER -->
+    <!-- START CONTACT INFO HEADER -->
                 <tr>
                     <td class="three-columns" style="padding-top: 15px; padding-right: 0; padding-bottom: 6px; padding-left: 0; text-align: center; font-size: 0; background-color: #171a1b;">
                         <!--[if (gte mso 9)|(IE)]>
@@ -47,13 +83,166 @@
                                                 <a href="mailto:email@example.com" target="_blank" style="font-size: 15px;color: #ffffff; text-decoration: none; display: inline-block;">email@example.com</a>
                                             </td>
                                         </tr>
+                                    </table>                               
+								</td>
+							</tr>
+						</table>
+                        <!--[if (gte mso 9)|(IE)]>
+							</td><td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+						<![endif]-->
+                        <table class="column" style="border-spacing:0;color:#4D5358;width:100%;max-width:200px;display:inline-block;" role="presentation">
+                            <tr>
+                                <td class="padded remove-padding-600 pt-400-0" style="padding-top:0;padding-right:0;padding-bottom:12px;padding-left:0;background-color: #171A1B;">
+                                    <table class="content" style="border-spacing:0;color:#ffffff;width:100%;font-size:15px;text-align:center;" role="presentation">
+                                        <tr>
+                                            <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;width: 200px;background-color:#171A1B;">
+                                                <a href="https://www.example.com"><img src="https://i.ibb.co/R2ZFKcF/white-phone-icon.png" alt="Phone" width="19" style="border-width:0; width:100%; max-width:19px; height:auto; vertical-align:bottom;"></a>
+                                                <a href="tel:1-800-888-8888" target="_blank" style="font-size: 15px; color: #ffffff; text-decoration: none; display: inline-block;">1-800-888-8888</a>
+                                            </td>
+                                        </tr>
                                     </table>
                                 </td>
                             </tr>
                         </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="40" valign="top" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+                        <![endif]-->
+                        <table class="column d-600-none" style="border-spacing:0; color:#ffffff; width:100%; max-width:40px; display:inline-block; vertical-align:top;" role="presentation">
+                            <tr>
+                                <td class="padded d-600-none" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; background-color: #171a1b;">
+                                    <table class="content" style="border-spacing:0; width:100%;" role="presentation">
+                                        <tr>
+                                            <td style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        <!--[if (gte mso 9)|(IE)]>
+							</td><td width="160" valign="top" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+						<![endif]-->
+                        <table class="column d-600-none" style="border-spacing:0;color:#ffffff;width:100%;max-width:160px;display:inline-block;" role="presentation">
+							<tr>
+								<td class="padded d-600-none" style="padding-top:0; padding-right:0; padding-bottom:12px; padding-left:0;  background-color: #171a1b;">
+									<table class="content" style="border-spacing:0; color:#ffffff; width:100%; font-size:15px; text-align:center;" role="presentation">
+										<tr>
+											<td style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; width: 200px; background-color:#171a1b;">
+												<a href="https://www.example.com" target="_blank" style="font-size: 15px;color: #ffffff; text-decoration: none; display: inline-block;">View online</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+                        <!-- I am here -->
+                        <!--[if (gte mso 9)|(IE)]>
+							</td>
+							</tr>
+							</table>
+						<![endif]-->                
                     </td>
-                </tr>                
+                </tr>
+    <!-- ^^ END CONTACT INFO HEADER -->
+
+    <!-- START LOGO & NAVIGATION -->
+    <tr>
+        <td class="three-columns">
+            <!--[if (gte mso 9)|(IE)]>
+                    <table width="100%" style="border-spacing:0;" role="presentation">
+                    <tr>
+                    <td width="250" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+            <![endif]-->
+            <table class="column">
+                <tr>
+                    <td class="padding px-600-0">
+                        <tr>
+                            <td>
+                                <a href=""></a>
+                            </td>
+                        </tr>
+                    </td>
+                </tr>
             </table>
+        </td>
+    </tr>
+    <!-- ^^ END LOGO & NAVIGATION -->
+    
+    <!-- START BANNER/HERO -->
+    <!-- ^^ END BANNER/HERO -->
+
+    <!-- START CENTERED CONTENT 1 -->
+    <!-- ^^ END CENTERED CONTENT 1 -->
+
+    <!-- START THREE COLUMNS -->
+    <!-- ^^ END THREE COLUMNS -->
+
+    <!-- START TWO COLUMNS WITH BACKGROUND COLOR 1 -->
+    <!-- ^^ END TWO COLUMNS WITH BACKGROUND COLOR 1 -->
+
+    <!-- START CENTERED CONTENT 2 -->
+    <!-- ^^ END CENTERED CONTENT 2 -->
+
+    <!-- START TWO COLUMNS 1 -->
+    <!-- ^^ END TWO COLUMNS 1 -->
+
+    <!-- START TWO COLUMNS 2 -->
+    <!-- ^^ END TWO COLUMNS 2 -->
+
+    <!-- START TEXT & BUTTON SECTION 1 -->
+    <!-- ^^ END TEXT & BUTTON SECTION 1 -->
+
+    <!-- START BORDER SHADOW -->
+    <!-- ^^ END BORDER SHADOW -->
+
+    <!-- START CENTERED CONTENT 3 -->
+    <!-- ^^ END CENTERED CONTENT 3 -->
+
+    <!-- START THREE COLUMN PRICING TABLES -->
+    <!-- ^^ END THREE COLUMN PRICING TABLES -->
+
+    <!-- START TWO COLUMNS WITH BACKGROUND COLOR 2 -->
+    <!-- ^^ END TWO COLUMNS WITH BACKGROUND COLOR 2 -->
+
+    <!-- START CENTERED CONTENT 4 -->
+    <!-- ^^ END CENTERED CONTENT 4 -->
+
+    <!-- START TWO COLUMN TESTIMONIALS -->
+    <!-- ^^ END TWO COLUMN TESTIMONIALS -->
+
+    <!-- START TEXT & BUTTON SECTION 2 -->
+    <!-- ^^ END TEXT & BUTTON SECTION 2 -->
+
+    <!-- START BANNER IMAGE -->
+    <!-- ^^ END BANNER IMAGE -->
+
+    <!-- START FOUR COLUMNS -->
+    <!-- ^^ END FOUR COLUMNS -->
+
+    <!-- START FOOTER -->
+    <!-- ^^ END FOOTER -->
+
+    <!-- START SOCKET -->
+    <tr>
+        <td style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+            <table width="100%" style="border-spacing:0; background-color:#585858;" role="presentation">
+                <tr>
+                    <td class="padding content" style="background-color:#585858; padding-top:10px; padding-right:0; padding-bottom:13px; padding-left:0; width:100%; text-align:center; font-size: 16px;color: #ffffff; width:600px; border-top: 2px solid #C4C7C9;">
+                        <p style="font-size:16px; line-height:22px; padding-top: 2px; padding-bottom: 2px;"><a href="https://example.com" target="_blank" style="text-decoration: none;color: #ffffff;">&copy; michellerenee.dev</a></p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+<!-- ^^ END SOCKET -->
+
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+			<![endif]-->
         </div>
     </center>
 </body>
