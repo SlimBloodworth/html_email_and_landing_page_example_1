@@ -33,6 +33,7 @@ Users should be able to:
 ## My process
 
 ***Email Template***
+
 - This follows a workflow of build and test:
 - Work structurally leaving in all table borders and cell background colors to help more clearly see what is being created, then removing them at the end.
 - Work until a minor development milestone is reached, then run a test.
@@ -44,11 +45,14 @@ Users should be able to:
 
 ***Landing Page***
 
+- This landing page uses [Bootstrap](https://getbootstrap.com/).
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
+- [Bootstrap](https://getbootstrap.com/)
 
 ### Tested With
 
@@ -63,6 +67,7 @@ Users should be able to:
 - [Imgbb](https://www.imgbb.com) - Free image Hosting.
 - [Email Accessibility Article](https://webdesign.tutsplus.com/a-beginners-guide-to-email-accessibility--cms-31240t) - A great article on accessibility in emails.
 - [What You Should Know About HTML Email](https://webdesign.tutsplus.com/what-you-should-know-about-html-email--webdesign-12908t) - Great article on things to know.
+- [Bootstrap](https://getbootstrap.com/).
 
 ## Author
 
