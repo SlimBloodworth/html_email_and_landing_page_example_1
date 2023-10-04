@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- View Email Live: [Add solution URL here](https://your-solution-url.com)
+- [View Email in Browser](https://slimbloodworth.github.io/html_email_and_landing_page_example_1/)
 - View Landing Page Live: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
