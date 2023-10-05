@@ -2,7 +2,7 @@
     --font-family: 'Raleway', sans-serif;
 }
 
-*, body, ::before, ::after {
+*, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,15 +20,38 @@ body {
 
 /* --- under 1199px --- */
 @media (max-width: 1199.98px) {
-
+    h1 {
+        font-size: 3.3rem;
+    }
+    .fa-stack.fa-2x {
+        font-size: 2.3rem;
+    }
+    
 }
 /* --- under 992px --- */
 @media (max-width: 991.98px) {
-    
+    h4 {
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .fa-stack.fa-2x {
+        font-size: 1.8rem;
+    }
+          
 }
 /* --- under 768px --- */
 @media (max-width: 767.98px) {
-    
+    h4 {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .globe-container {
+        padding: 1.5rem;
+    }    
 }
 /* --- BOOTSTRAP BREAK POINT REFERENCE--- */
 /*  https://getbootstrap.com/docs/5.3/layout/breakpoints/  */
@@ -69,8 +92,30 @@ h1 {
     padding: 1.8rem 0;    
 }
 
+/* .fa-stack.fa-2x {
+    font-size: 2.8rem;
+} */
+
+.fa-stack-2x {
+    opacity: .15;
+}
+
+.fa-stack-1x {
+    opacity: .6;
+}
+
+.fa-globe-americas {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
 
 /* --- MAIN CONTENT --- */
 .main-content {
+    height: 100vh;
+}
+
+/* --- FOOTER --- */
+.footer-contact {
     height: 100vh;
 }
