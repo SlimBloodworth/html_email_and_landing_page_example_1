@@ -1,0 +1,76 @@
+:root {
+    --font-family: 'Raleway', sans-serif;
+}
+
+*, body, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: var(--font-family);
+}
+
+/* --- LANDING --- */
+
+/* --- MEDIA QUERIES --- */
+
+/* --- under 1199px --- */
+@media (max-width: 1199.98px) {
+
+}
+/* --- under 992px --- */
+@media (max-width: 991.98px) {
+    
+}
+/* --- under 768px --- */
+@media (max-width: 767.98px) {
+    
+}
+/* --- BOOTSTRAP BREAK POINT REFERENCE--- */
+/*  https://getbootstrap.com/docs/5.3/layout/breakpoints/  */
+/* ==== 
+(xs) < 576px - no media query. Is default.
+(sm) > 576px - @media (min-width: 576px) {...}
+(md) > 768px - @media (min-width: 768px) {...}
+(lg) > 992px - @media (min-width: 992px) {...}
+(xl) > 1200px - @media (min-width: 1200px) {...}
+(xxl) > 1400px - @media (min-width: 1400px) {...}
+====*/
+
+/* --- LANDING HERO/HEADER --- */
+.hero-landing{
+    background-image: linear-gradient(135deg, #1da1f2, #981ceb);
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 200;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, .2);
+    padding: 1.8rem 0;    
+}
+
+
+/* --- MAIN CONTENT --- */
+.main-content {
+    height: 100vh;
+}

@@ -68,6 +68,7 @@ Users should be able to:
 - [Email Accessibility Article](https://webdesign.tutsplus.com/a-beginners-guide-to-email-accessibility--cms-31240t) - A great article on accessibility in emails.
 - [What You Should Know About HTML Email](https://webdesign.tutsplus.com/what-you-should-know-about-html-email--webdesign-12908t) - Great article on things to know.
 - [Bootstrap](https://getbootstrap.com/).
+- [Font Awesome CDN](https://cdnjs.com/libraries/font-awesome).
 
 ## Author
 
